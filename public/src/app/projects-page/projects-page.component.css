@@ -1,0 +1,122 @@
+html {
+    height: 400px;
+    width: 70%;
+    margin: 160px;
+    position: relative;
+    right: 120px;
+    bottom: 200px;
+    padding-top: 17px;
+}
+/* gradient effect behind four boxes */
+#backpagebox {
+    background-image: linear-gradient(to right, rgb(99, 59, 0),rgba(240, 240, 240, 0.014));
+    position: relative;
+    right: 10px;
+    width: 290%;
+    height: 325%;
+    bottom: -1070px;
+}
+.h2-film {
+    position: relative;
+    bottom: 320px;
+    font-family: bauhaus;
+    font-size: 75px;
+    letter-spacing: 8px;
+    cursor: default;
+    left: 20px;
+    color: rgb(179, 115, 43);
+    
+}
+.h2-tv {
+    position: relative;
+    top: -219px;
+    font-family: bauhaus;
+    font-size: 75px;
+    letter-spacing: 8px;
+    cursor: default;
+    left: 20px;
+    color: rgb(179, 115, 43);
+
+}
+.h2-backlots {
+    position: relative;
+    top: -130px;
+    font-family: bauhaus;
+    font-size: 75px;
+    letter-spacing: 8px;
+    cursor: default;
+    color: rgb(179, 115, 43);
+    left: 20px;
+
+}
+div.scrollmenufilm {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    width: 137%;
+    height: 102%;
+    padding: 4px;
+    position: relative;
+    bottom: 300px;
+    border: 4px solid black;
+    cursor: e-resize
+}
+div.scrollmenutelevision {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    width: 137%;
+    height: 102%;
+    padding: 4px;
+    position: relative;
+    top: -200px;
+    border: 4px solid black;
+    cursor: e-resize
+}
+div.scrollmenubacklots {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    width: 137%;
+    height: 100%;
+    padding: 4px;
+    position: relative;
+    top: -110px;
+    border: 4px solid black;
+    cursor: e-resize;
+    margin-bottom: 100px;
+}
+div.scrollmenufilm a img, div.scrollmenutelevision a img {
+    display: inline-block;
+    width: 410px;
+    height: 600px;
+    margin: 5px;
+    border: 1px solid white;
+    cursor: e-resize;
+}
+div.scrollmenubacklots a img {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    cursor: e-resize;
+    margin-right: 9px;
+    /* margin: 5px; */
+}
+div.scrollmenufilm a:hover, div.scrollmenutelevision a:hover, div.scrollmenubacklots a:hover {
+    width: 90%;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: 200ms ease all;
+}
+#backgroundimg {
+    width: 2900px;
+    background-size: 100%;
+    height: 2400px;
+    overflow: hidden;
+    position: absolute;
+    right: -950px;
+    opacity: .3;
+    bottom: -1600px;
+    background-image: url("http://u.cubeupload.com/jsaylor23/GITLSCLUBFloorPlan10.png");
+  }

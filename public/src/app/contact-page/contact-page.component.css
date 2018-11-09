@@ -1,0 +1,104 @@
+html {
+    align-content: center
+}
+#backpagebox {
+    border: 1px solid white;
+}
+.contactinfo {
+    position: absolute;
+    top: 1500px;
+    margin-bottom: 100px;
+    left: 1620px;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    font-family: bauhaus;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(52, 115, 134, 0.226);
+    transition: 200ms ease all;
+    background-image: linear-gradient(to right, rgba(107, 69, 12, 0.897),rgba(240, 240, 240, 0.014));
+    cursor: default;
+
+}
+.contactinfo:hover {
+    transition: 200ms ease all;
+    background-image: linear-gradient(to right, rgba(107, 69, 12, 0.897),rgba(240, 240, 240, 0.014));
+    box-shadow: 7px 7px 7px rgba(145, 115, 77, 0.596);
+
+}
+.about {
+    position: absolute;
+    top: 400px;
+    padding: 50px;
+    width: 50%;
+    letter-spacing: 2px;
+    left: 50px;
+    font-size: 30px;
+    font-family: bauhaus;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    box-shadow: 4px 4px 4px rgba(133, 119, 102, 0.301);
+    opacity: 1.3;
+    background-image: linear-gradient(to right, rgba(39, 20, 70, 0.527),rgba(240, 240, 240, 0.014));
+    transition: 200ms ease all;
+    cursor: default;
+}
+.about:hover {
+    transition: 200ms ease all;
+    box-shadow: 4px 4px 4px rgba(133, 119, 102, 0.301);
+    background-image: linear-gradient(to right, rgb(129, 107, 165),rgba(240, 240, 240, 0.014));
+    box-shadow: 6px 6px 20px rgba(139, 104, 60, 0.63)
+
+}
+.lists {
+    position: absolute;
+    top: 400px;
+    padding: 50px;
+    width: 25%;
+    letter-spacing: 2px;
+    left: 1500px;
+    font-size: 30px;
+    font-family: bauhaus;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    box-shadow: 4px 4px 4px rgba(52, 115, 134, 0.226);
+    background-image: linear-gradient(to right, rgba(110, 77, 28, 0.432),rgba(240, 240, 240, 0.014));
+    cursor: default;
+    transition: 200ms ease all;
+
+}
+.lists:hover {
+    transition: 200ms ease all;
+    box-shadow: 7px 7px 7px rgba(139, 104, 60, 0.63);
+    background-image: linear-gradient(to right, rgba(107, 69, 12, 0.527),rgba(240, 240, 240, 0.014));
+}
+.conclusion {
+    position: absolute;
+    top: 1000px;
+    padding: 50px;
+    width: 25%;
+    letter-spacing: 2px;
+    left: 1500px;
+    font-size: 30px;
+    font-family: bauhaus;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    box-shadow: 4px 4px 4px rgba(83, 98, 100, 0.301);
+    background-image: linear-gradient(to right, rgba(110, 77, 28, 0.432),rgba(240, 240, 240, 0.014));
+    cursor: default;
+    transition: 200ms ease all;
+
+}
+.conclusion:hover {
+    transition: 200ms ease all;
+    box-shadow: 7px 7px 7px rgba(139, 104, 60, 0.63);
+    background-image: linear-gradient(to right, rgba(107, 69, 12, 0.527),rgba(240, 240, 240, 0.014));
+}
+#backgroundimg {
+    width: 2700px;
+    bottom: -200px;
+    background-size: 100%;
+    height: 1200px;
+    position: absolute;
+    opacity: .1;
+    background-image: url("http://u.cubeupload.com/jsaylor23/GITLSCLUBFloorPlan10.png");
+  }

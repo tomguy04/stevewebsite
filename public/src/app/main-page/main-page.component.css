@@ -1,0 +1,55 @@
+.pageOption {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 130em; height: 89em;
+  bottom: 300px;
+  opacity: .8;
+}
+.option, .option img { width: 100%; height: 100%; }
+.option {
+  overflow: hidden;
+  position: absolute;
+  background-color: white;  
+  /* arctan(27 / 40) = 34.01935deg 
+   * need to skew by 90deg - 34.01935deg = 55.98065deg
+  */
+  transform: skewX(-55.98deg);
+  z-index: 10;
+}
+.option:first-child {
+  left: -.25em;
+  transform-origin: 100% 0;
+}
+.option:last-child {
+  right: -.25em;
+  transform-origin: 0 100%;
+}
+.option img { opacity: .75; transition: .5s; }
+.option img:hover { opacity: 1; }
+.option img, .option:after {
+  transform: skewX(55.98deg);
+  transform-origin: inherit;
+}
+.option:after {
+  position: absolute;
+  margin: .5em 1.65em;
+  color: white;
+  font: 500 1.25em Courier;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  content: attr(data-inf);
+}
+.option:first-child:after { top: 0; left: 0; }
+.option:last-child:after { right: 0; bottom: 0; }
+
+#backgroundimg {
+  width: 3000px;
+  background-size: 100%;
+  right: -200px;
+  bottom: -400px;
+  height: 1500px;
+  position: absolute;
+  opacity: .3;
+  background-image: url("http://u.cubeupload.com/jsaylor23/GITLSCLUBFloorPlan10.png");
+}

@@ -1,0 +1,53 @@
+
+#mainpagebox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 310px;
+    padding-left: 350px;
+}
+#mainpagebox a img {
+    width: 1000px;
+    height: 1000px;
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    transition: 1s ease all;
+    margin: 5px;
+}
+#mainpagebox a:hover img {
+    width: 1100px;
+    height: 1100px;
+    display: inline-block;
+    transition: 1s ease all;
+    margin: 8px;
+    border: 2.5px solid rgba(0, 0, 0, 0.651);
+}
+.title {
+    font-size: 120px;
+    position: relative;
+    left: 300px;
+    bottom: 350px;
+    width: 19%;
+    padding: 20px;
+    font-family: bauhaus;
+    letter-spacing: 7px;
+    color: rgb(179, 115, 43);
+    transition: 5s ease all;
+
+}
+.title:hover {
+    letter-spacing: 20px;
+    transition: 5s ease all;
+    cursor: default;
+    font-size: 100px;
+    color: rgba(179, 116, 43, 0.329);
+}
+#backgroundimg {
+    width: 3000px;
+    background-size: 100%;
+    right: -200px;
+    height: 19000px;
+    position: absolute;
+    opacity: .2;
+    background-image: url("http://u.cubeupload.com/jsaylor23/GITLSCLUBFloorPlan10.png");
+  }
